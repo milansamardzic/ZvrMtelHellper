@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/home/ms/AndroidStudioProjects/ETF/Pozovime/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.2/libs/internal_impl-21.0.2.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="962e8b12569c56dbdcf8367eb4eac8bb129cd18f">
+        <dex dex="/home/ms/AndroidStudioProjects/ETF/Pozovime/app/build/intermediates/pre-dexed/debug/internal_impl-21.0.2-3fd8e6dd14a35622b6c6c1ce9d3f7eca1729ad35.jar" />
+    </item>
+    <item
+        jar="/home/ms/AndroidStudioProjects/ETF/Pozovime/app/build/intermediates/exploded-aar/com.pkmmte.view/circularimageview/1.1/classes.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="c341a7ad32bc2eef9dcfab239262b77ac60788cc">
+        <dex dex="/home/ms/AndroidStudioProjects/ETF/Pozovime/app/build/intermediates/pre-dexed/debug/classes-241858d7483380a22cc4c03184aae27279d687e3.jar" />
+    </item>
+    <item
+        jar="/home/ms/AndroidStudioProjects/ETF/Pozovime/app/build/intermediates/exploded-aar/com.shamanland/fab/0.0.5/classes.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="afa2521b8e4674ab156ad16b21247c2dff3cd44b">
+        <dex dex="/home/ms/AndroidStudioProjects/ETF/Pozovime/app/build/intermediates/pre-dexed/debug/classes-87ce2a0ab4efccdd19b435156332251c4d870578.jar" />
+    </item>
+    <item
+        jar="/home/ms/Desktop/sdk/sdk/extras/android/m2repository/com/android/support/support-annotations/21.0.2/support-annotations-21.0.2.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="99373741f99a0556ee293c41e8faa1ca3ae8a4e6">
+        <dex dex="/home/ms/AndroidStudioProjects/ETF/Pozovime/app/build/intermediates/pre-dexed/debug/support-annotations-21.0.2-90fc96356c1df5cc91324df51dec2c3e9114928c.jar" />
+    </item>
+    <item
+        jar="/home/ms/AndroidStudioProjects/ETF/Pozovime/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.2/classes.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="7ae2d38807a43b2f2185ff4089a92c790b579e54">
+        <dex dex="/home/ms/AndroidStudioProjects/ETF/Pozovime/app/build/intermediates/pre-dexed/debug/classes-1cfd8e4ea93eb8fc017ee9615cf6f402edb353af.jar" />
+    </item>
+    <item
+        jar="/home/ms/AndroidStudioProjects/ETF/Pozovime/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.2/classes.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="d1bf02de1c56d942e7a9d093b8610ba1ef4128e3">
+        <dex dex="/home/ms/AndroidStudioProjects/ETF/Pozovime/app/build/intermediates/pre-dexed/debug/classes-e19b7bb0f8c4f635e497a121811bbe6ff89227c3.jar" />
+    </item>
+
+</items>

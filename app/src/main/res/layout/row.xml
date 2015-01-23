@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="#fff"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_margin="5dp">
+
+        <TextView
+            android:id="@+id/tvNameInitial"
+            android:gravity="center"
+            android:visibility="invisible"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:minHeight="50dp"
+            android:minWidth="50dp"
+            android:textColor="#fff"
+            android:textSize="20sp"
+            android:singleLine="true"
+            android:background="@drawable/rounded_corner"
+            android:fontFamily="sans-serif"
+            android:text="MS"/>
+
+        <com.pkmmte.view.CircularImageView
+            android:id="@+id/civImage1"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:minHeight="50dp"
+            android:minWidth="50dp"
+            app:border_color="#EEEEEE"
+            app:border_width="4dp"
+            app:shadow="true" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:hint="Name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/civImage1"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:fontFamily="sans-serif"
+        android:textSize="24sp"
+        android:ellipsize="end"
+        android:singleLine="true"
+        android:gravity="center_vertical"
+        android:layout_alignTop="@+id/civImage1"
+        android:layout_above="@+id/textView2" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:hint="Number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/tvNameInitial"
+        android:layout_alignLeft="@+id/textView1"
+        android:layout_alignStart="@+id/textView1" />
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

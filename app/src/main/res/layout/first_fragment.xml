@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:scrollbars="horizontal">
+
+    <RelativeLayout
+        android:id="@+id/rlSelfNumber"
+        android:background="@color/primary"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center_vertical"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <EditText
+            android:id="@+id/etEnterNumber"
+            android:fontFamily="sans-serif"
+            android:textColorHint="#ddd"
+            android:textColor="#fff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="ručni upis"
+            android:numeric="integer"
+            android:layout_marginLeft="15dp"
+            android:phoneNumber="true"
+            android:gravity="center"
+            android:layout_alignTop="@+id/btnSend"
+            android:layout_alignParentBottom="true"
+            android:layout_toLeftOf="@+id/btnSend"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+
+        <ImageButton
+            android:id="@+id/btnSend"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_margin="5dp"
+            android:src="@android:drawable/ic_menu_send"
+            android:background="@drawable/rounded_corner_button"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:layout_marginTop="5dp"
+        android:layout_above="@+id/rlSelfNumber">
+
+        <GridView
+            android:id="@+id/gvFav"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:numColumns="auto_fit"
+            android:verticalSpacing="10dp"
+            android:horizontalSpacing="10dp"
+            android:stretchMode="columnWidth"
+            android:gravity="center"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentTop="true"></GridView>
+
+    </RelativeLayout>
+
+</RelativeLayout>

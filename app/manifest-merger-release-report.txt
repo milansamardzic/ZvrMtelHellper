@@ -1,0 +1,115 @@
+-- Merging decision tree log ---
+manifest
+ADDED from AndroidManifest.xml:2:1
+	package
+		ADDED from AndroidManifest.xml:3:5
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+	android:versionName
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+	xmlns:android
+		ADDED from AndroidManifest.xml:2:11
+	android:versionCode
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+uses-permission#android.permission.READ_CONTACTS
+ADDED from AndroidManifest.xml:5:5
+	android:name
+		ADDED from AndroidManifest.xml:5:22
+uses-permission#android.permission.WRITE_SMS
+ADDED from AndroidManifest.xml:6:5
+	android:name
+		ADDED from AndroidManifest.xml:6:22
+uses-permission#android.permission.SEND_SMS
+ADDED from AndroidManifest.xml:7:5
+	android:name
+		ADDED from AndroidManifest.xml:7:22
+uses-permission#android.permission.CALL_PHONE
+ADDED from AndroidManifest.xml:8:5
+	android:name
+		ADDED from AndroidManifest.xml:8:22
+application
+ADDED from AndroidManifest.xml:10:5
+MERGED from com.android.support:appcompat-v7:21.0.2:16:5
+MERGED from com.android.support:support-v4:21.0.2:16:5
+MERGED from com.shamanland:fab:0.0.5:12:5
+MERGED from com.pkmmte.view:circularimageview:1.1:11:5
+	android:label
+		ADDED from AndroidManifest.xml:13:9
+	android:allowBackup
+		ADDED from AndroidManifest.xml:11:9
+	android:icon
+		ADDED from AndroidManifest.xml:12:9
+	android:theme
+		ADDED from AndroidManifest.xml:14:9
+activity#com.milansamardzic.zvrrmtel.MainActivity2
+ADDED from AndroidManifest.xml:15:9
+	android:label
+		ADDED from AndroidManifest.xml:17:13
+	android:name
+		ADDED from AndroidManifest.xml:16:13
+intent-filter#android.intent.action.MAIN+android.intent.action.SEARCH+android.intent.category.LAUNCHER
+ADDED from AndroidManifest.xml:18:13
+action#android.intent.action.MAIN
+ADDED from AndroidManifest.xml:19:17
+	android:name
+		ADDED from AndroidManifest.xml:19:25
+action#android.intent.action.SEARCH
+ADDED from AndroidManifest.xml:20:17
+	android:name
+		ADDED from AndroidManifest.xml:20:25
+category#android.intent.category.LAUNCHER
+ADDED from AndroidManifest.xml:21:17
+	android:name
+		ADDED from AndroidManifest.xml:21:27
+meta-data#android.app.searchable
+ADDED from AndroidManifest.xml:23:13
+	android:resource
+		ADDED from AndroidManifest.xml:24:17
+	android:name
+		ADDED from AndroidManifest.xml:23:24
+receiver#com.milansamardzic.zvrrmtel.Widget
+ADDED from AndroidManifest.xml:28:9
+	android:label
+		ADDED from AndroidManifest.xml:31:13
+	android:icon
+		ADDED from AndroidManifest.xml:29:13
+	android:name
+		ADDED from AndroidManifest.xml:30:13
+intent-filter#android.appwidget.action.APPWIDGET_UPDATE
+ADDED from AndroidManifest.xml:32:13
+action#android.appwidget.action.APPWIDGET_UPDATE
+ADDED from AndroidManifest.xml:33:17
+	android:name
+		ADDED from AndroidManifest.xml:33:25
+meta-data#android.appwidget.provider
+ADDED from AndroidManifest.xml:36:13
+	android:resource
+		ADDED from AndroidManifest.xml:38:17
+	android:name
+		ADDED from AndroidManifest.xml:37:17
+receiver#com.milansamardzic.zvrrmtel.WidgetInternet
+ADDED from AndroidManifest.xml:42:9
+	android:label
+		ADDED from AndroidManifest.xml:45:13
+	android:icon
+		ADDED from AndroidManifest.xml:43:13
+	android:name
+		ADDED from AndroidManifest.xml:44:13
+activity#com.milansamardzic.zvrrmtel.About
+ADDED from AndroidManifest.xml:55:9
+	android:name
+		ADDED from AndroidManifest.xml:56:13
+uses-sdk
+INJECTED from AndroidManifest.xml:0:0 reason: use-sdk injection requested
+MERGED from com.android.support:appcompat-v7:21.0.2:15:5
+MERGED from com.android.support:support-v4:21.0.2:15:5
+MERGED from com.shamanland:fab:0.0.5:8:5
+MERGED from com.pkmmte.view:circularimageview:1.1:7:5
+	android:targetSdkVersion
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+	android:minSdkVersion
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0

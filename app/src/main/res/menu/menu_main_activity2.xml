@@ -1,0 +1,18 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.milansamardzic.zvrrmtel.MainActivity2">
+    <item android:id="@+id/action_about" android:title="@string/action_about"
+        android:orderInCategory="100" app:showAsAction="never" />
+<!--
+    <item
+        android:id="@+id/on_off_switch"
+        android:title=""
+        app:showAsAction="always"
+        android:actionLayout="@layout/switch_layout"
+        />
+        -->
+    <item android:id="@+id/stanje_racuna"
+        android:title="@string/stanje_racuna"
+        app:showAsAction="always" />
+</menu>

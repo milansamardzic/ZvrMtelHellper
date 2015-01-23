@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_material_light"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:id="@+id/rlSearch"
+        android:background="@color/primary"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_above="@+id/rlSelfNumber"
+        android:layout_alignParentTop="true">
+
+        <EditText
+            android:id="@+id/etSearch"
+            android:hint="Pretraga..."
+            android:layout_marginLeft="5dp"
+            android:textColorHint="#ddd"
+            android:textColor="#fff"
+            android:textSize="18sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentTop="true"
+            android:layout_toLeftOf="@+id/btnSend"
+            android:layout_toStartOf="@+id/btnSend" />
+
+
+        <ImageButton
+            android:id="@+id/btnSend"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_margin="5dp"
+            android:src="@android:drawable/ic_menu_send"
+            android:background="@drawable/rounded_corner_button"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"/>
+
+
+        </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/rlSearch">
+
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:divider="#fff"
+            android:dividerHeight="0dp"
+            android:id="@+id/lv"/>
+    </RelativeLayout>
+</RelativeLayout>
+
